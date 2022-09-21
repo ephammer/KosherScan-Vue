@@ -421,15 +421,14 @@ export default {
   height: 540px;
   display: flex;
   overflow: hidden;
-  align-items: center;
   flex-direction: column;
-  justify-content: space-between;
-  background-color: var(--dl-color-purple-100);
+  background-color: var(--dl-color-purple-default);
 }
 .download-image2 {
   width: 210px;
   height: 425px;
-  margin-top: 100px;
+  align-self: center;
+  margin-top: var(--dl-space-space-doubleunit);
   object-fit: cover;
 }
 .download-container03 {
@@ -670,7 +669,7 @@ export default {
     width: 252px;
     height: 509px;
     align-self: center;
-    margin-top: 0px;
+    margin-top: var(--dl-space-space-unit);
   }
   .download-container06 {
     border-style: hidden;

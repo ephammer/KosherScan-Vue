@@ -192,7 +192,7 @@
         <h2 class="home-text10">
           <span>
             Our almost 2 years of
-            <span v-html="rawmr0x"></span>
+            <span v-html="raw0vr6"></span>
           </span>
           <br />
           <span>achievements</span>
@@ -408,7 +408,7 @@ export default {
 
   data() {
     return {
-      rawmr0x: ' ',
+      raw0vr6: ' ',
     }
   },
 
