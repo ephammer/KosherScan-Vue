@@ -192,7 +192,7 @@
         <h2 class="home-text10">
           <span>
             Our almost 2 years of
-            <span v-html="rawolr5"></span>
+            <span v-html="rawmr0x"></span>
           </span>
           <br />
           <span>achievements</span>
@@ -267,7 +267,7 @@
       </div>
       <img
         alt="image"
-        src="/playground_assets/featuregraphic1-1200w.png"
+        src="/playground_assets/featuregraphic-1200w.png"
         image_src="/playground_assets/iphonex-1200w.png"
         class="home-image5"
       />
@@ -408,7 +408,7 @@ export default {
 
   data() {
     return {
-      rawolr5: ' ',
+      rawmr0x: ' ',
     }
   },
 
