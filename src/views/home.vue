@@ -12,12 +12,14 @@
           </router-link>
         </div>
         <div class="home-menu">
-          <router-link to="/about" class="home-navlink1">About</router-link>
+          <router-link to="/about" class="home-navlink01">About</router-link>
           <a href="#features" class="home-link">Features</a>
           <router-link to="/memberships" class="home-text">
             Memberships
           </router-link>
-          <router-link to="/download" class="home-navlink2">Download</router-link>
+          <router-link to="/download" class="home-navlink02">
+            Download
+          </router-link>
         </div>
         <div class="home-container01"><store-banner></store-banner></div>
         <div data-type="BurgerMenu" class="home-burger-menu">
@@ -37,7 +39,7 @@
       <div data-type="MobileMenu" class="home-mobile-menu">
         <div class="home-top">
           <div class="home-logo1">
-            <router-link to="/" class="home-navlink3">
+            <router-link to="/" class="home-navlink03">
               <img
                 alt="image"
                 src="/playground_assets/logo.svg"
@@ -54,12 +56,14 @@
           </div>
         </div>
         <div class="home-mid">
-          <router-link to="/about" class="home-navlink4">About</router-link>
+          <router-link to="/about" class="home-navlink04">About</router-link>
           <a href="#features" class="home-link1">Features</a>
           <router-link to="/memberships" class="home-text01">
             Memberships
           </router-link>
-          <router-link to="/download" class="home-navlink5">Download</router-link>
+          <router-link to="/download" class="home-navlink05">
+            Download
+          </router-link>
         </div>
       </div>
     </div>
@@ -91,7 +95,7 @@
         </div>
         <img
           alt="image"
-          src="/playground_assets/iphone%2012%20_%2012%20pro-1500h.png"
+          src="/playground_assets/iphone%2012%20_%2012%20pro2-1500h.png"
           class="home-image2"
         />
       </div>
@@ -188,7 +192,7 @@
         <h2 class="home-text10">
           <span>
             Our almost 2 years of
-            <span v-html="rawj57b"></span>
+            <span v-html="rawihrg"></span>
           </span>
           <br />
           <span>achievements</span>
@@ -237,7 +241,7 @@
           <span>Ask missing products and get fast answers by your Rabbi.</span>
           <br />
         </span>
-        <router-link to="/download" class="home-navlink6">
+        <router-link to="/download" class="home-navlink06">
           <link-icon-button
             text="Get Started"
             class="home-component15"
@@ -263,7 +267,7 @@
       </div>
       <img
         alt="image"
-        src="/playground_assets/featuregraphic-1200w.png"
+        src="/playground_assets/featuregraphic1-1200w.png"
         image_src="/playground_assets/iphonex-1200w.png"
         class="home-image5"
       />
@@ -279,7 +283,7 @@
           <span class="home-text32 subtitle2">
             <span class="home-text33">Get the App</span>
           </span>
-          <router-link to="/download" class="home-navlink7">
+          <router-link to="/download" class="home-navlink07">
             <store-banner class="home-component16"></store-banner>
           </router-link>
         </div>
@@ -292,7 +296,7 @@
           />
           <img
             alt="image"
-            src="/playground_assets/iphone%2012%20_%2012%20pro-1500h.png"
+            src="/playground_assets/iphone%2012%20_%2012%20pro2-1500h.png"
             image_src="dab1286f-0104-48fa-bd7d-135e132129dd"
             class="home-image7"
           />
@@ -301,13 +305,15 @@
     </div>
     <div class="home-footer">
       <footer class="home-container19">
-        <img
-          alt="image"
-          src="/playground_assets/logo-white.svg"
-          class="home-image8"
-        />
+        <router-link to="/" class="home-navlink08">
+          <img
+            alt="image"
+            src="/playground_assets/logo-white.svg"
+            class="home-image8"
+          />
+        </router-link>
         <div class="home-container20">
-          <router-link to="/privacy-policy" class="home-navlink8">
+          <router-link to="/privacy-policy" class="home-navlink09">
             Privacy Policy
           </router-link>
         </div>
@@ -402,7 +408,7 @@ export default {
 
   data() {
     return {
-      rawj57b: ' ',
+      rawihrg: ' ',
     }
   },
 
@@ -481,12 +487,12 @@ export default {
   align-items: flex-start;
   flex-direction: row;
 }
-.home-navlink1 {
+.home-navlink01 {
   transition: 0.3s;
   margin-right: var(--dl-space-space-doubleunit);
   text-decoration: none;
 }
-.home-navlink1:hover {
+.home-navlink01:hover {
   color: var(--dl-color-turquoise-default);
 }
 .home-link {
@@ -505,12 +511,12 @@ export default {
 .home-text:hover {
   color: var(--dl-color-turquoise-default);
 }
-.home-navlink2 {
+.home-navlink02 {
   transition: 0.3s;
   margin-right: var(--dl-space-space-doubleunit);
   text-decoration: none;
 }
-.home-navlink2:hover {
+.home-navlink02:hover {
   color: var(--dl-color-turquoise-default);
 }
 .home-container01 {
@@ -559,7 +565,7 @@ export default {
   flex-direction: row;
   justify-content: space-between;
 }
-.home-navlink3 {
+.home-navlink03 {
   display: contents;
 }
 .home-image1 {
@@ -584,12 +590,12 @@ export default {
   align-items: flex-start;
   flex-direction: column;
 }
-.home-navlink4 {
+.home-navlink04 {
   transition: 0.3s;
   margin-right: var(--dl-space-space-doubleunit);
   text-decoration: none;
 }
-.home-navlink4:hover {
+.home-navlink04:hover {
   color: var(--dl-color-turquoise-default);
 }
 .home-link1 {
@@ -608,12 +614,12 @@ export default {
 .home-text01:hover {
   color: var(--dl-color-turquoise-default);
 }
-.home-navlink5 {
+.home-navlink05 {
   transition: 0.3s;
   margin-right: var(--dl-space-space-doubleunit);
   text-decoration: none;
 }
-.home-navlink5:hover {
+.home-navlink05:hover {
   color: var(--dl-color-turquoise-default);
 }
 .home-main {
@@ -921,7 +927,7 @@ export default {
 .home-text18 {
   white-space: pre-wrap;
 }
-.home-navlink6 {
+.home-navlink06 {
   display: contents;
 }
 .home-component15 {
@@ -997,7 +1003,7 @@ export default {
 .home-text33 {
   white-space: pre-wrap;
 }
-.home-navlink7 {
+.home-navlink07 {
   display: contents;
 }
 .home-component16 {
@@ -1051,9 +1057,13 @@ export default {
   flex-direction: column;
   justify-content: space-between;
 }
+.home-navlink08 {
+  display: contents;
+}
 .home-image8 {
   width: 120px;
   object-fit: cover;
+  text-decoration: none;
 }
 .home-container20 {
   display: flex;
@@ -1063,12 +1073,12 @@ export default {
   flex-direction: row;
   justify-content: flex-start;
 }
-.home-navlink8 {
+.home-navlink09 {
   transition: 0.3s;
   white-space: nowrap;
   text-decoration: none;
 }
-.home-navlink8:hover {
+.home-navlink09:hover {
   color: var(--dl-color-turquoise-default);
 }
 .home-divider2 {
@@ -1126,11 +1136,13 @@ export default {
   margin-left: var(--dl-space-space-unit);
   border-radius: var(--dl-radius-radius-round);
   flex-direction: column;
+  padding-bottom: 0.5rem;
   background-color: var(--dl-color-gray-900);
 }
 .home-icon07 {
-  width: 24px;
-  height: 24px;
+  fill: #D9D9D9;
+  width: 14px;
+  height: 14px;
 }
 .home-link4 {
   display: contents;
@@ -1166,8 +1178,9 @@ export default {
   background-color: var(--dl-color-gray-900);
 }
 .home-icon11 {
-  width: 24px;
-  height: 24px;
+  fill: #D9D9D9;
+  width: 13px;
+  height: 13px;
 }
 @media(max-width: 1200px) {
   .home-link {

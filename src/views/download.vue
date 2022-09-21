@@ -69,7 +69,7 @@
       <div class="download-container02">
         <img
           alt="image"
-          src="/playground_assets/iphone%2012%20_%2012%20pro1-400w.png"
+          src="/playground_assets/iphone%2012%20_%2012%20pro1-300w.png"
           image_src="dab1286f-0104-48fa-bd7d-135e132129dd"
           class="download-image2"
         />
@@ -86,15 +86,12 @@
           <br />
         </span>
         <div class="download-container04">
-          <div class="download-container05"></div>
-        </div>
-        <div class="download-container06">
-          <div class="download-container07">
-            <div class="download-container08"></div>
+          <div class="download-container05">
+            <div class="download-container06"></div>
           </div>
-          <div class="download-container09"></div>
+          <div class="download-container07"></div>
         </div>
-        <div class="download-container10">
+        <div class="download-container08">
           <a
             href="https://play.google.com/store/apps/details?id=app.kosherscan.kosher_scan"
             target="_blank"
@@ -123,31 +120,33 @@
       </div>
     </div>
     <div class="download-footer">
-      <footer class="download-container11">
-        <img
-          alt="image"
-          src="/playground_assets/logo-white.svg"
-          class="download-image5"
-        />
-        <div class="download-container12">
-          <router-link to="/privacy-policy" class="download-navlink6">
+      <footer class="download-container09">
+        <router-link to="/" class="download-navlink6">
+          <img
+            alt="image"
+            src="/playground_assets/logo-white.svg"
+            class="download-image5"
+          />
+        </router-link>
+        <div class="download-container10">
+          <router-link to="/privacy-policy" class="download-navlink7">
             Privacy Policy
           </router-link>
         </div>
         <span>Made with ❤️ by Ephraim Hammer</span>
         <div class="download-divider"></div>
-        <div class="download-container13">
+        <div class="download-container11">
           <span class="download-text09 body2">
             © 2022 KosherScan. All rights reserved
           </span>
-          <div class="download-container14">
+          <div class="download-container12">
             <a
               href="https://instagram.com/KosherScan"
               target="_blank"
               rel="noreferrer noopener"
               class="download-link2"
             >
-              <div class="download-container15">
+              <div class="download-container13">
                 <svg viewBox="0 0 877.7142857142857 1024" class="download-icon05">
                   <path
                     d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
@@ -161,7 +160,7 @@
               rel="noreferrer noopener"
               class="download-link3"
             >
-              <div class="download-container16">
+              <div class="download-container14">
                 <svg viewBox="0 0 1024 1024" class="download-icon07">
                   <path
                     d="M679.429 746.857l84-396c7.429-34.857-12.571-48.571-35.429-40l-493.714 190.286c-33.714 13.143-33.143 32-5.714 40.571l126.286 39.429 293.143-184.571c13.714-9.143 26.286-4 16 5.143l-237.143 214.286-9.143 130.286c13.143 0 18.857-5.714 25.714-12.571l61.714-59.429 128 94.286c23.429 13.143 40 6.286 46.286-21.714zM1024 512c0 282.857-229.143 512-512 512s-512-229.143-512-512 229.143-512 512-512 512 229.143 512 512z"
@@ -175,7 +174,7 @@
               rel="noreferrer noopener"
               class="download-link4"
             >
-              <div class="download-container17">
+              <div class="download-container15">
                 <svg viewBox="0 0 950.8571428571428 1024" class="download-icon09">
                   <path
                     d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
@@ -189,7 +188,7 @@
               rel="noreferrer noopener"
               class="download-link5"
             >
-              <div class="download-container18">
+              <div class="download-container16">
                 <svg viewBox="0 0 877.7142857142857 1024" class="download-icon11">
                   <path
                     d="M713.143 73.143c90.857 0 164.571 73.714 164.571 164.571v548.571c0 90.857-73.714 164.571-164.571 164.571h-107.429v-340h113.714l17.143-132.571h-130.857v-84.571c0-38.286 10.286-64 65.714-64l69.714-0.571v-118.286c-12-1.714-53.714-5.143-101.714-5.143-101.143 0-170.857 61.714-170.857 174.857v97.714h-114.286v132.571h114.286v340h-304c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571z"
@@ -424,11 +423,12 @@ export default {
   overflow: hidden;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   background-color: var(--dl-color-purple-100);
 }
 .download-image2 {
-  width: 360px;
+  width: 210px;
+  height: 425px;
   margin-top: 100px;
   object-fit: cover;
 }
@@ -451,7 +451,6 @@ export default {
 .download-container05 {
   flex: 0 0 auto;
   width: auto;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
   height: 24px;
   display: flex;
   align-items: flex-start;
@@ -463,34 +462,22 @@ export default {
   height: 24px;
   display: flex;
   align-items: flex-start;
+  border-color: rgba(120, 120, 120, 0.4);
+  border-style: hidden;
+  border-width: 2px;
   justify-content: flex-start;
 }
 .download-container07 {
   flex: 0 0 auto;
-  width: auto;
-  height: 24px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.download-container08 {
-  flex: 0 0 auto;
-  width: auto;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  height: 24px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.download-container09 {
-  flex: 0 0 auto;
   width: 100%;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
   height: 100px;
   display: flex;
   align-items: flex-start;
+  border-color: rgba(120, 120, 120, 0.4);
+  border-style: hidden;
+  border-width: 2px;
 }
-.download-container10 {
+.download-container08 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -524,7 +511,7 @@ export default {
   justify-content: center;
   background-color: var(--dl-color-gray-black);
 }
-.download-container11 {
+.download-container09 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -536,11 +523,15 @@ export default {
   flex-direction: column;
   justify-content: space-between;
 }
+.download-navlink6 {
+  display: contents;
+}
 .download-image5 {
   width: 120px;
   object-fit: cover;
+  text-decoration: none;
 }
-.download-container12 {
+.download-container10 {
   display: flex;
   margin-top: var(--dl-space-space-doubleunit);
   align-items: center;
@@ -548,12 +539,12 @@ export default {
   flex-direction: row;
   justify-content: flex-start;
 }
-.download-navlink6 {
+.download-navlink7 {
   transition: 0.3s;
   white-space: nowrap;
   text-decoration: none;
 }
-.download-navlink6:hover {
+.download-navlink7:hover {
   color: var(--dl-color-turquoise-default);
 }
 .download-divider {
@@ -562,7 +553,7 @@ export default {
   opacity: 0.2;
   background-color: var(--dl-color-gray-white);
 }
-.download-container13 {
+.download-container11 {
   width: 100%;
   display: flex;
   margin-top: var(--dl-space-space-unit);
@@ -574,7 +565,7 @@ export default {
   color: var(--dl-color-gray-300);
   margin-top: var(--dl-space-space-unit);
 }
-.download-container14 {
+.download-container12 {
   flex: 0 0 auto;
   width: 200px;
   display: flex;
@@ -584,7 +575,7 @@ export default {
 .download-link2 {
   display: contents;
 }
-.download-container15 {
+.download-container13 {
   display: flex;
   padding: var(--dl-space-space-halfunit);
   align-items: flex-start;
@@ -604,7 +595,7 @@ export default {
 .download-link3 {
   display: contents;
 }
-.download-container16 {
+.download-container14 {
   display: flex;
   padding: var(--dl-space-space-halfunit);
   align-items: flex-start;
@@ -614,13 +605,14 @@ export default {
   background-color: var(--dl-color-gray-900);
 }
 .download-icon07 {
-  width: 24px;
-  height: 24px;
+  fill: #D9D9D9;
+  width: 17px;
+  height: 17px;
 }
 .download-link4 {
   display: contents;
 }
-.download-container17 {
+.download-container15 {
   display: flex;
   padding: var(--dl-space-space-halfunit);
   align-items: flex-start;
@@ -641,7 +633,7 @@ export default {
 .download-link5 {
   display: contents;
 }
-.download-container18 {
+.download-container16 {
   display: flex;
   padding: var(--dl-space-space-halfunit);
   align-items: flex-start;
@@ -651,8 +643,9 @@ export default {
   background-color: var(--dl-color-gray-900);
 }
 .download-icon11 {
-  width: 24px;
-  height: 24px;
+  fill: #D9D9D9;
+  width: 16px;
+  height: 16px;
 }
 @media(max-width: 1200px) {
   .download-text {
@@ -679,13 +672,10 @@ export default {
     align-self: center;
     margin-top: 0px;
   }
-  .download-container05 {
+  .download-container06 {
     border-style: hidden;
   }
-  .download-container08 {
-    border-style: hidden;
-  }
-  .download-container09 {
+  .download-container07 {
     border-style: hidden;
   }
   .download-image3 {
@@ -726,11 +716,11 @@ export default {
   .download-burger-menu {
     display: block;
   }
-  .download-container12 {
+  .download-container10 {
     flex-wrap: wrap;
     justify-content: center;
   }
-  .download-container13 {
+  .download-container11 {
     flex-direction: column;
   }
   .download-text09 {

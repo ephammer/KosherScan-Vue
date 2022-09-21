@@ -127,7 +127,7 @@
         <div class="memberships-container09">
           <div class="memberships-container10"></div>
         </div>
-        <router-link to="/memberships" class="memberships-navlink6">
+        <router-link to="/download" class="memberships-navlink6">
           <link-icon-button
             text="Get Started"
             class="memberships-component1"
@@ -137,13 +137,15 @@
     </div>
     <div class="memberships-footer">
       <footer class="memberships-container11">
-        <img
-          alt="image"
-          src="/playground_assets/logo-white.svg"
-          class="memberships-image3"
-        />
+        <router-link to="/" class="memberships-navlink7">
+          <img
+            alt="image"
+            src="/playground_assets/logo-white.svg"
+            class="memberships-image3"
+          />
+        </router-link>
         <div class="memberships-container12">
-          <router-link to="/privacy-policy" class="memberships-navlink7">
+          <router-link to="/privacy-policy" class="memberships-navlink8">
             Privacy Policy
           </router-link>
         </div>
@@ -448,7 +450,7 @@ export default {
   overflow: hidden;
   align-items: center;
   flex-direction: column;
-  background-color: var(--dl-color-purple-100);
+  background-color: var(--dl-color-orange-default);
 }
 .memberships-image2 {
   width: 360px;
@@ -474,10 +476,12 @@ export default {
 .memberships-container05 {
   flex: 0 0 auto;
   width: auto;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
   height: 24px;
   display: flex;
   align-items: flex-start;
+  border-color: rgba(120, 120, 120, 0.4);
+  border-style: hidden;
+  border-width: 2px;
   justify-content: flex-start;
 }
 .memberships-container06 {
@@ -486,11 +490,19 @@ export default {
   height: 24px;
   display: flex;
   align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
   justify-content: flex-start;
 }
 .memberships-icon05 {
+  fill: var(--dl-color-pink-default);
   width: 24px;
   height: 24px;
+}
+.memberships-text08 {
+  color: var(--dl-color-gray-700);
+  font-style: normal;
+  font-weight: 500;
+  padding-left: var(--dl-space-space-unit);
 }
 .memberships-container07 {
   flex: 0 0 auto;
@@ -498,11 +510,19 @@ export default {
   height: 24px;
   display: flex;
   align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
   justify-content: flex-start;
 }
 .memberships-icon07 {
+  fill: var(--dl-color-orange-default);
   width: 24px;
   height: 24px;
+}
+.memberships-text11 {
+  color: var(--dl-color-gray-700);
+  font-style: normal;
+  font-weight: 500;
+  padding-left: var(--dl-space-space-unit);
 }
 .memberships-container08 {
   flex: 0 0 auto;
@@ -513,8 +533,15 @@ export default {
   justify-content: flex-start;
 }
 .memberships-icon09 {
+  fill: #ff0000;
   width: 24px;
   height: 24px;
+}
+.memberships-text12 {
+  color: var(--dl-color-gray-700);
+  font-style: normal;
+  font-weight: 500;
+  padding-left: var(--dl-space-space-unit);
 }
 .memberships-container09 {
   flex: 0 0 auto;
@@ -527,10 +554,12 @@ export default {
 .memberships-container10 {
   flex: 0 0 auto;
   width: auto;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
   height: 24px;
   display: flex;
   align-items: flex-start;
+  border-color: rgba(120, 120, 120, 0.4);
+  border-style: hidden;
+  border-width: 2px;
   justify-content: flex-start;
 }
 .memberships-navlink6 {
@@ -561,9 +590,13 @@ export default {
   flex-direction: column;
   justify-content: space-between;
 }
+.memberships-navlink7 {
+  display: contents;
+}
 .memberships-image3 {
   width: 120px;
   object-fit: cover;
+  text-decoration: none;
 }
 .memberships-container12 {
   display: flex;
@@ -573,12 +606,12 @@ export default {
   flex-direction: row;
   justify-content: flex-start;
 }
-.memberships-navlink7 {
+.memberships-navlink8 {
   transition: 0.3s;
   white-space: nowrap;
   text-decoration: none;
 }
-.memberships-navlink7:hover {
+.memberships-navlink8:hover {
   color: var(--dl-color-turquoise-default);
 }
 .memberships-divider {
@@ -639,8 +672,9 @@ export default {
   background-color: var(--dl-color-gray-900);
 }
 .memberships-icon13 {
-  width: 24px;
-  height: 24px;
+  fill: #D9D9D9;
+  width: 13px;
+  height: 15px;
 }
 .memberships-link2 {
   display: contents;
@@ -676,8 +710,9 @@ export default {
   background-color: var(--dl-color-gray-900);
 }
 .memberships-icon17 {
-  width: 24px;
-  height: 24px;
+  fill: #D9D9D9;
+  width: 13px;
+  height: 13px;
 }
 @media(max-width: 1200px) {
   .memberships-text {
@@ -698,7 +733,7 @@ export default {
     border-style: hidden;
   }
   .memberships-container06 {
-    padding-bottom: var(--dl-space-space-halfunit);
+    margin-bottom: var(--dl-space-space-unit);
   }
   .memberships-icon05 {
     fill: var(--dl-color-pink-default);
@@ -710,7 +745,7 @@ export default {
     padding-left: var(--dl-space-space-unit);
   }
   .memberships-container07 {
-    padding-bottom: var(--dl-space-space-halfunit);
+    margin-bottom: var(--dl-space-space-unit);
   }
   .memberships-icon07 {
     fill: var(--dl-color-orange-default);
@@ -779,6 +814,17 @@ export default {
 @media(max-width: 400px) {
   .memberships-container01 {
     display: none;
+  }
+  .memberships-container06 {
+    margin-bottom: var(--dl-space-space-unit);
+    padding-bottom: 0px;
+  }
+  .memberships-container07 {
+    margin-top: var(--dl-space-space-unit);
+  }
+  .memberships-container08 {
+    margin-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
   }
 }
 </style>

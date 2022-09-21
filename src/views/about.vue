@@ -110,13 +110,15 @@
     </div>
     <div class="about-footer">
       <footer class="about-container04">
-        <img
-          alt="image"
-          src="/playground_assets/logo-white.svg"
-          class="about-image3"
-        />
+        <router-link to="/" class="about-navlink7">
+          <img
+            alt="image"
+            src="/playground_assets/logo-white.svg"
+            class="about-image3"
+          />
+        </router-link>
         <div class="about-container05">
-          <router-link to="/privacy-policy" class="about-navlink7">
+          <router-link to="/privacy-policy" class="about-navlink8">
             Privacy Policy
           </router-link>
         </div>
@@ -412,7 +414,7 @@ export default {
   overflow: hidden;
   align-items: center;
   flex-direction: column;
-  background-color: var(--dl-color-purple-100);
+  background-color: var(--dl-color-orange-default);
 }
 .about-image2 {
   width: 360px;
@@ -430,6 +432,7 @@ export default {
 .about-text03 {
   max-width: 400px;
   margin-top: var(--dl-space-space-doubleunit);
+  text-align: justify;
   margin-bottom: var(--dl-space-space-doubleunit);
 }
 .about-navlink6 {
@@ -460,9 +463,13 @@ export default {
   flex-direction: column;
   justify-content: space-between;
 }
+.about-navlink7 {
+  display: contents;
+}
 .about-image3 {
   width: 120px;
   object-fit: cover;
+  text-decoration: none;
 }
 .about-container05 {
   display: flex;
@@ -472,12 +479,12 @@ export default {
   flex-direction: row;
   justify-content: flex-start;
 }
-.about-navlink7 {
+.about-navlink8 {
   transition: 0.3s;
   white-space: nowrap;
   text-decoration: none;
 }
-.about-navlink7:hover {
+.about-navlink8:hover {
   color: var(--dl-color-turquoise-default);
 }
 .about-divider {
@@ -538,8 +545,9 @@ export default {
   background-color: var(--dl-color-gray-900);
 }
 .about-icon07 {
-  width: 24px;
-  height: 24px;
+  fill: #D9D9D9;
+  width: 16px;
+  height: 16px;
 }
 .about-link2 {
   display: contents;
@@ -575,8 +583,9 @@ export default {
   background-color: var(--dl-color-gray-900);
 }
 .about-icon11 {
-  width: 24px;
-  height: 24px;
+  fill: #D9D9D9;
+  width: 16px;
+  height: 16px;
 }
 @media(max-width: 1200px) {
   .about-navlink1 {
