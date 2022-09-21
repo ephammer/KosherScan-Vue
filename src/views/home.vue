@@ -192,7 +192,7 @@
         <h2 class="home-text10">
           <span>
             Our almost 2 years of
-            <span v-html="rawihrg"></span>
+            <span v-html="rawolr5"></span>
           </span>
           <br />
           <span>achievements</span>
@@ -408,7 +408,7 @@ export default {
 
   data() {
     return {
-      rawihrg: ' ',
+      rawolr5: ' ',
     }
   },
 
@@ -1018,20 +1018,16 @@ export default {
   justify-content: flex-start;
 }
 .home-image6 {
-  top: -100px;
-  left: auto;
-  right: var(--dl-space-space-doubleunit);
+  top: -99px;
+  right: 12px;
   width: 232px;
-  bottom: auto;
   position: absolute;
   object-fit: cover;
 }
 .home-image7 {
-  top: auto;
-  left: var(--dl-space-space-doubleunit);
-  right: auto;
+  top: -134px;
+  left: 23px;
   width: 232px;
-  bottom: -100px;
   position: absolute;
   object-fit: cover;
 }
