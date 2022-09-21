@@ -190,7 +190,7 @@
         <h2 class="home-text08">
           <span>
             Our almost 2 years of
-            <span v-html="rawufeg"></span>
+            <span v-html="raw2koh"></span>
           </span>
           <br />
           <span>achievements</span>
@@ -403,7 +403,7 @@ export default {
 
   data() {
     return {
-      rawufeg: ' ',
+      raw2koh: ' ',
     }
   },
 
@@ -1309,7 +1309,7 @@ export default {
     display: none;
   }
   .home-text02 {
-    width: 357px;
+    width: 400px;
   }
   .home-text05 {
     text-align: center;

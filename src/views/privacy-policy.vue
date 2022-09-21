@@ -192,13 +192,15 @@
     </div>
     <div class="privacy-policy-footer">
       <footer class="privacy-policy-container03">
-        <img
-          alt="image"
-          src="/playground_assets/logo-white.svg"
-          class="privacy-policy-image2"
-        />
+        <router-link to="/" class="privacy-policy-navlink6">
+          <img
+            alt="image"
+            src="/playground_assets/logo-white.svg"
+            class="privacy-policy-image2"
+          />
+        </router-link>
         <div class="privacy-policy-container04">
-          <router-link to="/privacy-policy" class="privacy-policy-navlink6">
+          <router-link to="/privacy-policy" class="privacy-policy-navlink7">
             Privacy Policy
           </router-link>
         </div>
@@ -511,9 +513,13 @@ export default {
   flex-direction: column;
   justify-content: space-between;
 }
+.privacy-policy-navlink6 {
+  display: contents;
+}
 .privacy-policy-image2 {
   width: 120px;
   object-fit: cover;
+  text-decoration: none;
 }
 .privacy-policy-container04 {
   display: flex;
@@ -523,12 +529,12 @@ export default {
   flex-direction: row;
   justify-content: flex-start;
 }
-.privacy-policy-navlink6 {
+.privacy-policy-navlink7 {
   transition: 0.3s;
   white-space: nowrap;
   text-decoration: none;
 }
-.privacy-policy-navlink6:hover {
+.privacy-policy-navlink7:hover {
   color: var(--dl-color-turquoise-default);
 }
 .privacy-policy-divider {
@@ -723,6 +729,9 @@ export default {
   .privacy-policy-burger-menu {
     display: block;
   }
+  .privacy-policy-container02 {
+    width: 100%;
+  }
   .privacy-policy-container04 {
     flex-wrap: wrap;
     justify-content: center;
@@ -738,6 +747,9 @@ export default {
 @media(max-width: 375px) {
   .privacy-policy-container01 {
     display: none;
+  }
+  .privacy-policy-container02 {
+    width: 100%;
   }
 }
 </style>
