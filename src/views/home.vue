@@ -192,7 +192,7 @@
         <h2 class="home-text10">
           <span>
             Our almost 2 years of
-            <span v-html="raw0vr6"></span>
+            <span v-html="rawx1nd"></span>
           </span>
           <br />
           <span>achievements</span>
@@ -204,23 +204,20 @@
         </span>
       </div>
       <div class="home-container10">
-        <div class="home-container11">
-          <stats-card
-            number="17,000+"
-            image_src="/playground_assets/01.svg"
-            description="Answered Products"
-          ></stats-card>
-          <stats-card
-            number="10,000"
-            image_src="/playground_assets/04.svg"
-            description="Users"
-          ></stats-card>
-        </div>
-        <div class="home-container12"></div>
+        <stats-card
+          number="10,000"
+          image_src="/playground_assets/group_icon_color.svg"
+          description="Users"
+        ></stats-card>
+        <stats-card
+          number="17,000+"
+          image_src="/playground_assets/chat_bubble_color.svg"
+          description="Answered Products"
+        ></stats-card>
       </div>
     </div>
     <div class="home-feature1">
-      <div class="home-container13">
+      <div class="home-container11">
         <img
           alt="image"
           src="/playground_assets/iphone%2012%20_%2012%20pro1-400w.png"
@@ -228,7 +225,7 @@
           class="home-image4"
         />
       </div>
-      <div class="home-container14">
+      <div class="home-container12">
         <h3 class="headline3">Discover. Scan. Ask</h3>
         <span class="home-text17">
           <span class="home-text18 lead1">
@@ -250,7 +247,7 @@
       </div>
     </div>
     <div class="home-feature2">
-      <div class="home-container15">
+      <div class="home-container13">
         <h2 class="headline2 home-text24">
           Enter the 21st century kosher shopping experience
         </h2>
@@ -273,8 +270,8 @@
       />
     </div>
     <div class="home-c-t-a">
-      <div class="home-container16">
-        <div class="home-container17">
+      <div class="home-container14">
+        <div class="home-container15">
           <h2 class="headline2 home-text30">Consult your Rabbi on the go</h2>
           <span class="home-text31 lead1">
             Download the app to consult your Rabbi about groceries on the go.
@@ -287,7 +284,7 @@
             <store-banner class="home-component16"></store-banner>
           </router-link>
         </div>
-        <div class="home-container18">
+        <div class="home-container16">
           <img
             alt="image"
             src="/playground_assets/iphone%2012%20_%2012%20pro1-400w.png"
@@ -304,7 +301,7 @@
       </div>
     </div>
     <div class="home-footer">
-      <footer class="home-container19">
+      <footer class="home-container17">
         <router-link to="/" class="home-navlink08">
           <img
             alt="image"
@@ -312,25 +309,25 @@
             class="home-image8"
           />
         </router-link>
-        <div class="home-container20">
+        <div class="home-container18">
           <router-link to="/privacy-policy" class="home-navlink09">
             Privacy Policy
           </router-link>
         </div>
         <span>Made with ❤️ by Ephraim Hammer</span>
         <div class="home-divider2"></div>
-        <div class="home-container21">
+        <div class="home-container19">
           <span class="home-text35 body2">
             © 2022 KosherScan. All rights reserved
           </span>
-          <div class="home-container22">
+          <div class="home-container20">
             <a
               href="https://instagram.com/KosherScan"
               target="_blank"
               rel="noreferrer noopener"
               class="home-link2"
             >
-              <div class="home-container23">
+              <div class="home-container21">
                 <svg viewBox="0 0 877.7142857142857 1024" class="home-icon05">
                   <path
                     d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
@@ -344,7 +341,7 @@
               rel="noreferrer noopener"
               class="home-link3"
             >
-              <div class="home-container24">
+              <div class="home-container22">
                 <svg viewBox="0 0 1024 1024" class="home-icon07">
                   <path
                     d="M679.429 746.857l84-396c7.429-34.857-12.571-48.571-35.429-40l-493.714 190.286c-33.714 13.143-33.143 32-5.714 40.571l126.286 39.429 293.143-184.571c13.714-9.143 26.286-4 16 5.143l-237.143 214.286-9.143 130.286c13.143 0 18.857-5.714 25.714-12.571l61.714-59.429 128 94.286c23.429 13.143 40 6.286 46.286-21.714zM1024 512c0 282.857-229.143 512-512 512s-512-229.143-512-512 229.143-512 512-512 512 229.143 512 512z"
@@ -358,7 +355,7 @@
               rel="noreferrer noopener"
               class="home-link4"
             >
-              <div class="home-container25">
+              <div class="home-container23">
                 <svg viewBox="0 0 950.8571428571428 1024" class="home-icon09">
                   <path
                     d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
@@ -372,7 +369,7 @@
               rel="noreferrer noopener"
               class="home-link5"
             >
-              <div class="home-container26">
+              <div class="home-container24">
                 <svg viewBox="0 0 877.7142857142857 1024" class="home-icon11">
                   <path
                     d="M713.143 73.143c90.857 0 164.571 73.714 164.571 164.571v548.571c0 90.857-73.714 164.571-164.571 164.571h-107.429v-340h113.714l17.143-132.571h-130.857v-84.571c0-38.286 10.286-64 65.714-64l69.714-0.571v-118.286c-12-1.714-53.714-5.143-101.714-5.143-101.143 0-170.857 61.714-170.857 174.857v97.714h-114.286v132.571h114.286v340h-304c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571z"
@@ -408,7 +405,7 @@ export default {
 
   data() {
     return {
-      raw0vr6: ' ',
+      rawx1nd: ' ',
     }
   },
 
@@ -872,19 +869,6 @@ export default {
   flex-direction: column;
   justify-content: center;
 }
-.home-container11 {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: center;
-}
-.home-container12 {
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: center;
-}
 .home-feature1 {
   flex: 0 0 auto;
   width: 100%;
@@ -896,7 +880,7 @@ export default {
   flex-direction: row;
   justify-content: center;
 }
-.home-container13 {
+.home-container11 {
   flex: 0 0 auto;
   width: 540px;
   height: 540px;
@@ -911,7 +895,7 @@ export default {
   margin-top: 100px;
   object-fit: cover;
 }
-.home-container14 {
+.home-container12 {
   flex: 1;
   margin: var(--dl-space-space-doubleunit);
   display: flex;
@@ -944,7 +928,7 @@ export default {
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-container15 {
+.home-container13 {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -973,7 +957,7 @@ export default {
   justify-content: center;
   background-color: var(--dl-color-turquoise-default);
 }
-.home-container16 {
+.home-container14 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -985,7 +969,7 @@ export default {
   flex-direction: row;
   justify-content: flex-start;
 }
-.home-container17 {
+.home-container15 {
   flex: 1;
   display: flex;
   align-items: flex-start;
@@ -1009,7 +993,7 @@ export default {
 .home-component16 {
   text-decoration: none;
 }
-.home-container18 {
+.home-container16 {
   width: 520px;
   display: flex;
   position: relative;
@@ -1018,15 +1002,15 @@ export default {
   justify-content: flex-start;
 }
 .home-image6 {
-  top: -99px;
-  right: 12px;
+  top: -95px;
+  right: -151px;
   width: 232px;
   position: absolute;
   object-fit: cover;
 }
 .home-image7 {
-  top: -134px;
-  left: 23px;
+  top: -415px;
+  left: 125px;
   width: 232px;
   position: absolute;
   object-fit: cover;
@@ -1041,7 +1025,7 @@ export default {
   justify-content: center;
   background-color: var(--dl-color-gray-black);
 }
-.home-container19 {
+.home-container17 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -1061,7 +1045,7 @@ export default {
   object-fit: cover;
   text-decoration: none;
 }
-.home-container20 {
+.home-container18 {
   display: flex;
   margin-top: var(--dl-space-space-doubleunit);
   align-items: center;
@@ -1083,7 +1067,7 @@ export default {
   opacity: 0.2;
   background-color: var(--dl-color-gray-white);
 }
-.home-container21 {
+.home-container19 {
   width: 100%;
   display: flex;
   margin-top: var(--dl-space-space-unit);
@@ -1095,7 +1079,7 @@ export default {
   color: var(--dl-color-gray-300);
   margin-top: var(--dl-space-space-unit);
 }
-.home-container22 {
+.home-container20 {
   flex: 0 0 auto;
   width: 200px;
   display: flex;
@@ -1105,7 +1089,7 @@ export default {
 .home-link2 {
   display: contents;
 }
-.home-container23 {
+.home-container21 {
   display: flex;
   padding: var(--dl-space-space-halfunit);
   align-items: flex-start;
@@ -1125,7 +1109,7 @@ export default {
 .home-link3 {
   display: contents;
 }
-.home-container24 {
+.home-container22 {
   display: flex;
   padding: var(--dl-space-space-halfunit);
   align-items: flex-start;
@@ -1143,7 +1127,7 @@ export default {
 .home-link4 {
   display: contents;
 }
-.home-container25 {
+.home-container23 {
   display: flex;
   padding: var(--dl-space-space-halfunit);
   align-items: flex-start;
@@ -1164,7 +1148,7 @@ export default {
 .home-link5 {
   display: contents;
 }
-.home-container26 {
+.home-container24 {
   display: flex;
   padding: var(--dl-space-space-halfunit);
   align-items: flex-start;
@@ -1250,15 +1234,15 @@ export default {
   .home-feature1 {
     flex-direction: column;
   }
-  .home-container14 {
+  .home-container12 {
     margin-left: 0px;
     margin-right: 0px;
   }
-  .home-container15 {
+  .home-container13 {
     align-items: flex-start;
     flex-direction: column;
   }
-  .home-container18 {
+  .home-container16 {
     display: none;
   }
 }
@@ -1270,6 +1254,7 @@ export default {
     display: block;
   }
   .home-text02 {
+    width: 400px;
     font-size: 50px;
     text-align: center;
   }
@@ -1299,14 +1284,18 @@ export default {
   .home-text24 {
     font-size: 40px;
   }
+  .home-image5 {
+    width: 357px;
+    height: auto;
+  }
   .home-text30 {
     font-size: 40px;
   }
-  .home-container20 {
+  .home-container18 {
     flex-wrap: wrap;
     justify-content: center;
   }
-  .home-container21 {
+  .home-container19 {
     flex-direction: column;
   }
   .home-text35 {
@@ -1314,7 +1303,7 @@ export default {
     margin-bottom: var(--dl-space-space-unit);
   }
 }
-@media(max-width: 400px) {
+@media(max-width: 375px) {
   .home-container01 {
     display: none;
   }
@@ -1335,12 +1324,6 @@ export default {
   }
   .home-text14 {
     text-align: center;
-  }
-  .home-container11 {
-    flex-direction: column;
-  }
-  .home-container12 {
-    flex-direction: column;
   }
   .home-image5 {
     height: auto;

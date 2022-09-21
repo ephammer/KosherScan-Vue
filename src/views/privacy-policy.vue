@@ -735,7 +735,7 @@ export default {
     margin-bottom: var(--dl-space-space-unit);
   }
 }
-@media(max-width: 400px) {
+@media(max-width: 375px) {
   .privacy-policy-container01 {
     display: none;
   }
