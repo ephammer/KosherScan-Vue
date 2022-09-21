@@ -6,6 +6,7 @@ import About from './views/about'
 import Home from './views/home'
 import Memberships from './views/memberships'
 import Download from './views/download'
+import PrivacyPolicy from './views/privacy-policy'
 import './style.css'
 
 Vue.use(Router)
@@ -32,6 +33,11 @@ export default new Router({
       name: 'Download',
       path: '/download',
       component: Download,
+    },
+    {
+      name: 'Privacy-Policy',
+      path: '/privacy-policy',
+      component: PrivacyPolicy,
     },
   ],
 })

@@ -100,7 +100,12 @@
           <br class="lead1" />
           <span class="lead1">Ephraim Hammer</span>
         </span>
-        <link-icon-button text="Get Started"></link-icon-button>
+        <router-link to="/download" class="about-navlink6">
+          <link-icon-button
+            text="Get Started"
+            class="about-component1"
+          ></link-icon-button>
+        </router-link>
       </div>
     </div>
     <div class="about-footer">
@@ -111,12 +116,14 @@
           class="about-image3"
         />
         <div class="about-container05">
-          <span class="about-text09">Privacy Policy</span>
+          <router-link to="/privacy-policy" class="about-navlink7">
+            Privacy Policy
+          </router-link>
         </div>
         <span>Made with ❤️ by Ephraim Hammer</span>
         <div class="about-divider"></div>
         <div class="about-container06">
-          <span class="about-text11 body2">
+          <span class="about-text10 body2">
             © 2022 KosherScan. All rights reserved
           </span>
           <div class="about-container07">
@@ -425,6 +432,12 @@ export default {
   margin-top: var(--dl-space-space-doubleunit);
   margin-bottom: var(--dl-space-space-doubleunit);
 }
+.about-navlink6 {
+  display: contents;
+}
+.about-component1 {
+  text-decoration: none;
+}
 .about-footer {
   flex: 0 0 auto;
   color: var(--dl-color-gray-white);
@@ -459,11 +472,12 @@ export default {
   flex-direction: row;
   justify-content: flex-start;
 }
-.about-text09 {
+.about-navlink7 {
   transition: 0.3s;
   white-space: nowrap;
+  text-decoration: none;
 }
-.about-text09:hover {
+.about-navlink7:hover {
   color: var(--dl-color-turquoise-default);
 }
 .about-divider {
@@ -480,7 +494,7 @@ export default {
   flex-direction: row;
   justify-content: space-between;
 }
-.about-text11 {
+.about-text10 {
   color: var(--dl-color-gray-300);
   margin-top: var(--dl-space-space-unit);
 }
@@ -624,12 +638,12 @@ export default {
   .about-container06 {
     flex-direction: column;
   }
-  .about-text11 {
+  .about-text10 {
     margin-top: var(--dl-space-space-unit);
     margin-bottom: var(--dl-space-space-unit);
   }
 }
-@media(max-width: 479px) {
+@media(max-width: 400px) {
   .about-container01 {
     display: none;
   }

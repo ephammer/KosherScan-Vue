@@ -188,7 +188,7 @@
         <h2 class="home-text10">
           <span>
             Our almost 2 years of
-            <span v-html="raww5r0"></span>
+            <span v-html="rawj57b"></span>
           </span>
           <br />
           <span>achievements</span>
@@ -237,7 +237,12 @@
           <span>Ask missing products and get fast answers by your Rabbi.</span>
           <br />
         </span>
-        <link-icon-button text="Get Started"></link-icon-button>
+        <router-link to="/download" class="home-navlink6">
+          <link-icon-button
+            text="Get Started"
+            class="home-component15"
+          ></link-icon-button>
+        </router-link>
       </div>
     </div>
     <div class="home-feature2">
@@ -274,7 +279,7 @@
           <span class="home-text32 subtitle2">
             <span class="home-text33">Get the App</span>
           </span>
-          <router-link to="/download" class="home-navlink6">
+          <router-link to="/download" class="home-navlink7">
             <store-banner class="home-component16"></store-banner>
           </router-link>
         </div>
@@ -302,12 +307,14 @@
           class="home-image8"
         />
         <div class="home-container20">
-          <span class="home-text34">Privacy Policy</span>
+          <router-link to="/privacy-policy" class="home-navlink8">
+            Privacy Policy
+          </router-link>
         </div>
         <span>Made with ❤️ by Ephraim Hammer</span>
         <div class="home-divider2"></div>
         <div class="home-container21">
-          <span class="home-text36 body2">
+          <span class="home-text35 body2">
             © 2022 KosherScan. All rights reserved
           </span>
           <div class="home-container22">
@@ -395,7 +402,7 @@ export default {
 
   data() {
     return {
-      raww5r0: ' ',
+      rawj57b: ' ',
     }
   },
 
@@ -914,6 +921,12 @@ export default {
 .home-text18 {
   white-space: pre-wrap;
 }
+.home-navlink6 {
+  display: contents;
+}
+.home-component15 {
+  text-decoration: none;
+}
 .home-feature2 {
   flex: 0 0 auto;
   width: 100%;
@@ -984,7 +997,7 @@ export default {
 .home-text33 {
   white-space: pre-wrap;
 }
-.home-navlink6 {
+.home-navlink7 {
   display: contents;
 }
 .home-component16 {
@@ -1050,11 +1063,12 @@ export default {
   flex-direction: row;
   justify-content: flex-start;
 }
-.home-text34 {
+.home-navlink8 {
   transition: 0.3s;
   white-space: nowrap;
+  text-decoration: none;
 }
-.home-text34:hover {
+.home-navlink8:hover {
   color: var(--dl-color-turquoise-default);
 }
 .home-divider2 {
@@ -1071,7 +1085,7 @@ export default {
   flex-direction: row;
   justify-content: space-between;
 }
-.home-text36 {
+.home-text35 {
   color: var(--dl-color-gray-300);
   margin-top: var(--dl-space-space-unit);
 }
@@ -1286,17 +1300,17 @@ export default {
   .home-container21 {
     flex-direction: column;
   }
-  .home-text36 {
+  .home-text35 {
     margin-top: var(--dl-space-space-unit);
     margin-bottom: var(--dl-space-space-unit);
   }
 }
-@media(max-width: 479px) {
+@media(max-width: 400px) {
   .home-container01 {
     display: none;
   }
   .home-text02 {
-    width: 479px;
+    width: 400px;
   }
   .home-text07 {
     text-align: center;

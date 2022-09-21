@@ -127,7 +127,12 @@
         <div class="memberships-container09">
           <div class="memberships-container10"></div>
         </div>
-        <link-icon-button text="Get Started"></link-icon-button>
+        <router-link to="/memberships" class="memberships-navlink6">
+          <link-icon-button
+            text="Get Started"
+            class="memberships-component1"
+          ></link-icon-button>
+        </router-link>
       </div>
     </div>
     <div class="memberships-footer">
@@ -138,12 +143,14 @@
           class="memberships-image3"
         />
         <div class="memberships-container12">
-          <span class="memberships-text13">Privacy Policy</span>
+          <router-link to="/privacy-policy" class="memberships-navlink7">
+            Privacy Policy
+          </router-link>
         </div>
         <span>Made with ❤️ by Ephraim Hammer</span>
         <div class="memberships-divider"></div>
         <div class="memberships-container13">
-          <span class="memberships-text15 body2">
+          <span class="memberships-text14 body2">
             © 2022 KosherScan. All rights reserved
           </span>
           <div class="memberships-container14">
@@ -526,6 +533,12 @@ export default {
   align-items: flex-start;
   justify-content: flex-start;
 }
+.memberships-navlink6 {
+  display: contents;
+}
+.memberships-component1 {
+  text-decoration: none;
+}
 .memberships-footer {
   flex: 0 0 auto;
   color: var(--dl-color-gray-white);
@@ -560,11 +573,12 @@ export default {
   flex-direction: row;
   justify-content: flex-start;
 }
-.memberships-text13 {
+.memberships-navlink7 {
   transition: 0.3s;
   white-space: nowrap;
+  text-decoration: none;
 }
-.memberships-text13:hover {
+.memberships-navlink7:hover {
   color: var(--dl-color-turquoise-default);
 }
 .memberships-divider {
@@ -581,7 +595,7 @@ export default {
   flex-direction: row;
   justify-content: space-between;
 }
-.memberships-text15 {
+.memberships-text14 {
   color: var(--dl-color-gray-300);
   margin-top: var(--dl-space-space-unit);
 }
@@ -757,12 +771,12 @@ export default {
   .memberships-container13 {
     flex-direction: column;
   }
-  .memberships-text15 {
+  .memberships-text14 {
     margin-top: var(--dl-space-space-unit);
     margin-bottom: var(--dl-space-space-unit);
   }
 }
-@media(max-width: 479px) {
+@media(max-width: 400px) {
   .memberships-container01 {
     display: none;
   }
