@@ -1,0 +1,45 @@
+<template>
+  <div class="primary-button-container">
+    <button class="primary-button-button mediumLabel button">{{ button }}</button>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'PrimaryButton',
+  props: {
+    button: {
+      type: String,
+      default: 'Button',
+    },
+  },
+}
+</script>
+
+<style scoped>
+.primary-button-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.primary-button-button {
+  color: var(--dl-color-gray-white);
+  align-self: center;
+  transition: 0.3s;
+  padding-top: 12px;
+  border-width: 0px;
+  padding-left: 32px;
+  border-radius: var(--dl-radius-radius-radius6);
+  padding-right: 32px;
+  padding-bottom: 12px;
+  background-color: var(--dl-color-purple-default);
+}
+.primary-button-button:hover {
+  background-color: var(--dl-color-purple-900);
+}
+.primary-button-button:active {
+  background-color: var(--dl-color-purple-1000);
+}
+</style>
