@@ -715,6 +715,9 @@ export default {
   .download-burger-menu {
     display: block;
   }
+  .download-container02 {
+    width: 418px;
+  }
   .download-container10 {
     flex-wrap: wrap;
     justify-content: center;
@@ -730,6 +733,9 @@ export default {
 @media(max-width: 375px) {
   .download-container01 {
     display: none;
+  }
+  .download-container02 {
+    width: 375px;
   }
 }
 </style>

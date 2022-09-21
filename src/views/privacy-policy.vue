@@ -73,7 +73,7 @@
     </div>
     <div class="privacy-policy-container02">
       <h1 class="privacy-policy-text02">Privacy Policy</h1>
-      <span>
+      <span class="privacy-policy-text03">
         <span>
           At Kosher Scan, one of our main priorities is the privacy of our
           visitors. This Privacy Policy document contains types of information
@@ -491,6 +491,9 @@ export default {
   align-items: flex-start;
   flex-direction: column;
 }
+.privacy-policy-text03 {
+  margin-bottom: var(--dl-space-space-doubleunit);
+}
 .privacy-policy-footer {
   flex: 0 0 auto;
   color: var(--dl-color-gray-white);
@@ -658,6 +661,9 @@ export default {
   .privacy-policy-text02 {
     align-self: center;
   }
+  .privacy-policy-text03 {
+    margin-bottom: var(--dl-space-space-doubleunit);
+  }
   .privacy-policy-text10 {
     font-style: normal;
     font-weight: 700;
@@ -750,6 +756,12 @@ export default {
   }
   .privacy-policy-container02 {
     width: 100%;
+  }
+  .privacy-policy-text03 {
+    margin-top: var(--dl-space-space-unit);
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+    margin-bottom: var(--dl-space-space-doubleunit);
   }
 }
 </style>

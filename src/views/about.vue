@@ -659,5 +659,8 @@ export default {
   .about-mobile-menu {
     display: none;
   }
+  .about-container02 {
+    width: 375px;
+  }
 }
 </style>

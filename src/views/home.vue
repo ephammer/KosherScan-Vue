@@ -71,15 +71,15 @@
       <div class="home-blur-background"></div>
       <img
         alt="image"
-        src="/playground_assets/turquoise-circle.svg"
-        class="home-turquoise-cirble"
-      />
-      <img
-        alt="image"
         src="/playground_assets/purple-circle.svg"
         class="home-purple-circle"
       />
       <img alt="image" src="/playground_assets/left.svg" class="home-left" />
+      <img
+        alt="image"
+        src="/playground_assets/turquoise-circle.svg"
+        class="home-turquoise-cirble"
+      />
       <img alt="image" src="/playground_assets/right.svg" class="home-right" />
       <div class="home-hero">
         <div class="home-container02">
@@ -190,7 +190,7 @@
         <h2 class="home-text08">
           <span>
             Our almost 2 years of
-            <span v-html="raw2koh"></span>
+            <span v-html="rawsko4"></span>
           </span>
           <br />
           <span>achievements</span>
@@ -403,7 +403,7 @@ export default {
 
   data() {
     return {
-      raw2koh: ' ',
+      rawsko4: ' ',
     }
   },
 
@@ -639,17 +639,6 @@ export default {
   flex-direction: column;
   background-color: #f2f2f2;
 }
-.home-turquoise-cirble {
-  top: 439px;
-  left: auto;
-  right: 430px;
-  width: 170px;
-  bottom: auto;
-  filter: blur(60px);
-  opacity: 0.6;
-  position: absolute;
-  object-fit: cover;
-}
 .home-purple-circle {
   top: -100px;
   left: auto;
@@ -667,6 +656,17 @@ export default {
   right: auto;
   width: 420px;
   bottom: auto;
+  position: absolute;
+  object-fit: cover;
+}
+.home-turquoise-cirble {
+  top: 439px;
+  left: auto;
+  right: 430px;
+  width: 170px;
+  bottom: auto;
+  filter: blur(60px);
+  opacity: 0.6;
   position: absolute;
   object-fit: cover;
 }
@@ -1308,8 +1308,19 @@ export default {
   .home-container01 {
     display: none;
   }
+  .home-left {
+    width: 375px;
+  }
+  .home-turquoise-cirble {
+    right: auto;
+    width: 156px;
+    height: 165px;
+  }
+  .home-right {
+    width: 375px;
+  }
   .home-text02 {
-    width: 400px;
+    width: 375px;
   }
   .home-text05 {
     text-align: center;
@@ -1325,6 +1336,9 @@ export default {
   }
   .home-text12 {
     text-align: center;
+  }
+  .home-container11 {
+    width: 375px;
   }
   .home-image5 {
     height: auto;

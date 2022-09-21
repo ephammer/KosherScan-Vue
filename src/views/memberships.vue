@@ -799,6 +799,9 @@ export default {
   .memberships-burger-menu {
     display: block;
   }
+  .memberships-container02 {
+    width: 418px;
+  }
   .memberships-container12 {
     flex-wrap: wrap;
     justify-content: center;
@@ -814,6 +817,9 @@ export default {
 @media(max-width: 375px) {
   .memberships-container01 {
     display: none;
+  }
+  .memberships-container02 {
+    width: 375px;
   }
   .memberships-container06 {
     margin-bottom: var(--dl-space-space-unit);
