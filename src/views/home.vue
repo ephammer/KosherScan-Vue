@@ -84,9 +84,7 @@
       <div class="home-hero">
         <div class="home-container02">
           <h1 class="home-text02 headline1">
-            <span>Check the Kosher Status</span>
-            <br />
-            <span>of your groceries.</span>
+            <span>Consult your Rabbi on the go</span>
             <br />
           </h1>
           <store-banner
@@ -113,23 +111,13 @@
       <div class="home-divider1"></div>
     </div>
     <div id="features" class="home-features">
-      <h2 class="headline2 home-text07">Tailor-made features</h2>
-      <span class="home-text08">Made with ❤️ for our users.</span>
+      <h2 class="headline2 home-text05">Tailor-made features</h2>
+      <span class="home-text06">Made with ❤️ for our users.</span>
       <div class="home-features1">
-        <feature-card
-          text="Each of our products was asked by a user. Answered by a Rabbi."
-          image_src="/playground_assets/group_icon_color.svg"
-          card_title="Crowdsourced Products"
-        ></feature-card>
         <feature-card
           text="Lightning-fast barcode scanning allows each product to be found in a matter of a second."
           image_src="/playground_assets/barcode_scan_color.svg"
           card_title="Barcode Scan"
-        ></feature-card>
-        <feature-card
-          text="Get notifications when your question gets answered."
-          image_src="/playground_assets/notifications_color1.svg"
-          card_title="Notifications"
         ></feature-card>
         <feature-card
           text="Browse thousands of already answered products."
@@ -137,14 +125,24 @@
           card_title="Browse"
         ></feature-card>
         <feature-card
-          text="We hate ads as much as you do. No ads that clutter the app and ruin your experience."
-          image_src="/playground_assets/block_color.svg"
-          card_title="No Ads"
-        ></feature-card>
-        <feature-card
           text="Filter products by store and status."
           image_src="/playground_assets/06.svg"
           card_title="Filters"
+        ></feature-card>
+        <feature-card
+          text="Each of our products was asked by a user. Answered by a Rabbi."
+          image_src="/playground_assets/group_icon_color.svg"
+          card_title="Crowdsourced Products"
+        ></feature-card>
+        <feature-card
+          text="Get notified when your question gets answered."
+          image_src="/playground_assets/notifications_color1.svg"
+          card_title="Notifications"
+        ></feature-card>
+        <feature-card
+          text="We hate ads as much as you do. No ads that clutter the app and ruin your experience."
+          image_src="/playground_assets/block_color.svg"
+          card_title="No Ads"
         ></feature-card>
       </div>
     </div>
@@ -156,7 +154,7 @@
             src="/playground_assets/quote-mark.svg"
             class="home-image3"
           />
-          <h1 class="home-text09 headline2">Real Reviews from Real Customers</h1>
+          <h1 class="home-text07 headline2">Real Reviews from Real Users</h1>
           <div class="home-container05">
             <testimonials-card
               text="An excellent application, the number of kosher products in large European food chains such as REWE LIDL and more simply scan the barcode of the product and receive information on whether it is kosher/dairy. A must-have app for a kosher-keeping traveler!"
@@ -189,16 +187,16 @@
     </div>
     <div class="home-achievements">
       <div class="home-container09">
-        <h2 class="home-text10">
+        <h2 class="home-text08">
           <span>
             Our almost 2 years of
-            <span v-html="rawx1nd"></span>
+            <span v-html="rawufeg"></span>
           </span>
           <br />
           <span>achievements</span>
         </h2>
-        <span class="home-text14">
-          <span class="home-text15">
+        <span class="home-text12">
+          <span class="home-text13">
             With our super powers we have reached this
           </span>
         </span>
@@ -227,8 +225,8 @@
       </div>
       <div class="home-container12">
         <h3 class="headline3">Discover. Scan. Ask</h3>
-        <span class="home-text17">
-          <span class="home-text18 lead1">
+        <span class="home-text15">
+          <span class="home-text16 lead1">
             Discover thousands of products. Filter them by store and use the
             search bar to search by category. 
           </span>
@@ -248,11 +246,11 @@
     </div>
     <div class="home-feature2">
       <div class="home-container13">
-        <h2 class="headline2 home-text24">
+        <h2 class="headline2 home-text22">
           Enter the 21st century kosher shopping experience
         </h2>
-        <span class="home-text25">
-          <span class="home-text26 lead1">
+        <span class="home-text23">
+          <span class="home-text24 lead1">
             No more outdated lists of kosher products. No more apps that look like
             they where made before the invention of the internet. No more guessing
             if a product is Kosher. 
@@ -272,13 +270,13 @@
     <div class="home-c-t-a">
       <div class="home-container14">
         <div class="home-container15">
-          <h2 class="headline2 home-text30">Consult your Rabbi on the go</h2>
-          <span class="home-text31 lead1">
+          <h2 class="headline2 home-text28">Consult your Rabbi on the go</h2>
+          <span class="home-text29 lead1">
             Download the app to consult your Rabbi about groceries on the go.
             Simply scan the barcode and get an answer.
           </span>
-          <span class="home-text32 subtitle2">
-            <span class="home-text33">Get the App</span>
+          <span class="home-text30 subtitle2">
+            <span class="home-text31">Get the App</span>
           </span>
           <router-link to="/download" class="home-navlink07">
             <store-banner class="home-component16"></store-banner>
@@ -317,7 +315,7 @@
         <span>Made with ❤️ by Ephraim Hammer</span>
         <div class="home-divider2"></div>
         <div class="home-container19">
-          <span class="home-text35 body2">
+          <span class="home-text33 body2">
             © 2022 KosherScan. All rights reserved
           </span>
           <div class="home-container20">
@@ -405,7 +403,7 @@ export default {
 
   data() {
     return {
-      rawx1nd: ' ',
+      rawufeg: ' ',
     }
   },
 
@@ -757,7 +755,7 @@ export default {
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text08 {
+.home-text06 {
   max-width: 500px;
   text-align: center;
 }
@@ -806,7 +804,7 @@ export default {
   position: absolute;
   object-fit: cover;
 }
-.home-text09 {
+.home-text07 {
   z-index: 100;
   max-width: 500px;
 }
@@ -859,7 +857,7 @@ export default {
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text15 {
+.home-text13 {
   white-space: pre-wrap;
 }
 .home-container10 {
@@ -903,12 +901,12 @@ export default {
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text17 {
+.home-text15 {
   max-width: 400px;
   margin-top: var(--dl-space-space-doubleunit);
   margin-bottom: var(--dl-space-space-doubleunit);
 }
-.home-text18 {
+.home-text16 {
   white-space: pre-wrap;
 }
 .home-navlink06 {
@@ -934,12 +932,12 @@ export default {
   flex-direction: row;
   justify-content: flex-start;
 }
-.home-text25 {
+.home-text23 {
   max-width: 400px;
   margin-top: var(--dl-space-space-doubleunit);
   margin-bottom: var(--dl-space-space-doubleunit);
 }
-.home-text26 {
+.home-text24 {
   white-space: pre-wrap;
 }
 .home-image5 {
@@ -976,15 +974,15 @@ export default {
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text31 {
+.home-text29 {
   max-width: 500px;
 }
-.home-text32 {
+.home-text30 {
   max-width: 400px;
   margin-top: var(--dl-space-space-doubleunit);
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.home-text33 {
+.home-text31 {
   white-space: pre-wrap;
 }
 .home-navlink07 {
@@ -1075,7 +1073,7 @@ export default {
   flex-direction: row;
   justify-content: space-between;
 }
-.home-text35 {
+.home-text33 {
   color: var(--dl-color-gray-300);
   margin-top: var(--dl-space-space-unit);
 }
@@ -1178,6 +1176,9 @@ export default {
   .home-container02 {
     width: 687px;
   }
+  .home-text02 {
+    width: 723px;
+  }
   .home-image6 {
     top: -98px;
     right: -8px;
@@ -1261,7 +1262,7 @@ export default {
   .home-clients {
     justify-content: center;
   }
-  .home-text07 {
+  .home-text05 {
     font-size: 40px;
   }
   .home-container04 {
@@ -1274,21 +1275,21 @@ export default {
     width: 50px;
     bottom: auto;
   }
-  .home-text09 {
+  .home-text07 {
     font-size: 40px;
     text-align: center;
   }
-  .home-text10 {
+  .home-text08 {
     font-size: 40px;
   }
-  .home-text24 {
+  .home-text22 {
     font-size: 40px;
   }
   .home-image5 {
     width: 357px;
     height: auto;
   }
-  .home-text30 {
+  .home-text28 {
     font-size: 40px;
   }
   .home-container18 {
@@ -1298,7 +1299,7 @@ export default {
   .home-container19 {
     flex-direction: column;
   }
-  .home-text35 {
+  .home-text33 {
     margin-top: var(--dl-space-space-unit);
     margin-bottom: var(--dl-space-space-unit);
   }
@@ -1308,21 +1309,21 @@ export default {
     display: none;
   }
   .home-text02 {
-    width: 400px;
+    width: 357px;
   }
-  .home-text07 {
+  .home-text05 {
     text-align: center;
   }
-  .home-text08 {
+  .home-text06 {
     text-align: center;
   }
   .home-container09 {
     align-items: center;
   }
-  .home-text10 {
+  .home-text08 {
     text-align: center;
   }
-  .home-text14 {
+  .home-text12 {
     text-align: center;
   }
   .home-image5 {
