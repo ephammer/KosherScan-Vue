@@ -188,7 +188,7 @@
         <h2 class="home-text08">
           <span>
             Our almost 2 years of
-            <span v-html="rawgiab"></span>
+            <span v-html="raw7asx"></span>
           </span>
           <br />
           <span>achievements</span>
@@ -401,7 +401,7 @@ export default {
 
   data() {
     return {
-      rawgiab: ' ',
+      raw7asx: ' ',
     }
   },
 
@@ -1290,8 +1290,20 @@ export default {
   .home-container {
     flex-wrap: wrap;
   }
+  .home-menu {
+    display: none;
+    align-items: flex-start;
+  }
   .home-container01 {
     display: none;
+  }
+  .home-mobile-menu {
+    display: none;
+  }
+  .home-navlink05 {
+    color: var(--dl-color-gray-900);
+    border-color: var(--dl-color-gray-900);
+    border-width: 1px;
   }
   .home-left {
     width: 375px;
