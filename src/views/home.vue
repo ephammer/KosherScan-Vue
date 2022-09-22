@@ -190,7 +190,7 @@
         <h2 class="home-text08">
           <span>
             Our almost 2 years of
-            <span v-html="rawsko4"></span>
+            <span v-html="rawwh34"></span>
           </span>
           <br />
           <span>achievements</span>
@@ -403,7 +403,7 @@ export default {
 
   data() {
     return {
-      rawsko4: ' ',
+      rawwh34: ' ',
     }
   },
 
@@ -1306,6 +1306,9 @@ export default {
 }
 @media(max-width: 375px) {
   .home-container01 {
+    display: none;
+  }
+  .home-mobile-menu {
     display: none;
   }
   .home-left {
