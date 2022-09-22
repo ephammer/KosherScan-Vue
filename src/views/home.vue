@@ -13,7 +13,6 @@
         </div>
         <div class="home-menu">
           <router-link to="/about" class="home-navlink01">About</router-link>
-          <a href="#features" class="home-link">Features</a>
           <router-link to="/memberships" class="home-text">
             Memberships
           </router-link>
@@ -57,7 +56,6 @@
         </div>
         <div class="home-mid">
           <router-link to="/about" class="home-navlink04">About</router-link>
-          <a href="#features" class="home-link1">Features</a>
           <router-link to="/memberships" class="home-text01">
             Memberships
           </router-link>
@@ -190,7 +188,7 @@
         <h2 class="home-text08">
           <span>
             Our almost 2 years of
-            <span v-html="rawwh34"></span>
+            <span v-html="rawgiab"></span>
           </span>
           <br />
           <span>achievements</span>
@@ -323,7 +321,7 @@
               href="https://instagram.com/KosherScan"
               target="_blank"
               rel="noreferrer noopener"
-              class="home-link2"
+              class="home-link"
             >
               <div class="home-container21">
                 <svg viewBox="0 0 877.7142857142857 1024" class="home-icon05">
@@ -337,7 +335,7 @@
               href="https://t.me/kosherScan"
               target="_blank"
               rel="noreferrer noopener"
-              class="home-link3"
+              class="home-link1"
             >
               <div class="home-container22">
                 <svg viewBox="0 0 1024 1024" class="home-icon07">
@@ -351,7 +349,7 @@
               href="https://twitter.com/KosherScanApp"
               target="_blank"
               rel="noreferrer noopener"
-              class="home-link4"
+              class="home-link2"
             >
               <div class="home-container23">
                 <svg viewBox="0 0 950.8571428571428 1024" class="home-icon09">
@@ -365,7 +363,7 @@
               href="https://www.facebook.com/KosherScanApp"
               target="_blank"
               rel="noreferrer noopener"
-              class="home-link5"
+              class="home-link3"
             >
               <div class="home-container24">
                 <svg viewBox="0 0 877.7142857142857 1024" class="home-icon11">
@@ -403,7 +401,7 @@ export default {
 
   data() {
     return {
-      rawwh34: ' ',
+      rawgiab: ' ',
     }
   },
 
@@ -488,14 +486,6 @@ export default {
   text-decoration: none;
 }
 .home-navlink01:hover {
-  color: var(--dl-color-turquoise-default);
-}
-.home-link {
-  transition: 0.3s;
-  margin-right: var(--dl-space-space-doubleunit);
-  text-decoration: none;
-}
-.home-link:hover {
   color: var(--dl-color-turquoise-default);
 }
 .home-text {
@@ -591,14 +581,6 @@ export default {
   text-decoration: none;
 }
 .home-navlink04:hover {
-  color: var(--dl-color-turquoise-default);
-}
-.home-link1 {
-  transition: 0.3s;
-  margin-right: var(--dl-space-space-doubleunit);
-  text-decoration: none;
-}
-.home-link1:hover {
   color: var(--dl-color-turquoise-default);
 }
 .home-text01 {
@@ -1084,7 +1066,7 @@ export default {
   align-items: flex-start;
   flex-direction: row;
 }
-.home-link2 {
+.home-link {
   display: contents;
 }
 .home-container21 {
@@ -1104,7 +1086,7 @@ export default {
 .home-icon05:hover {
   fill: var(--dl-color-purple-default);
 }
-.home-link3 {
+.home-link1 {
   display: contents;
 }
 .home-container22 {
@@ -1122,7 +1104,7 @@ export default {
   width: 14px;
   height: 14px;
 }
-.home-link4 {
+.home-link2 {
   display: contents;
 }
 .home-container23 {
@@ -1143,7 +1125,7 @@ export default {
 .home-icon09:hover {
   fill: var(--dl-color-turquoise-default);
 }
-.home-link5 {
+.home-link3 {
   display: contents;
 }
 .home-container24 {
@@ -1161,17 +1143,20 @@ export default {
   height: 13px;
 }
 @media(max-width: 1200px) {
-  .home-link {
-    text-decoration: none;
-  }
   .home-text {
     text-decoration: none;
   }
-  .home-link1 {
-    text-decoration: none;
+  .home-navlink02 {
+    color: var(--dl-color-gray-900);
+  }
+  .home-mobile-menu {
+    display: none;
   }
   .home-text01 {
     text-decoration: none;
+  }
+  .home-navlink05 {
+    color: var(--dl-color-purple-900);
   }
   .home-container02 {
     width: 687px;
@@ -1196,9 +1181,6 @@ export default {
 }
 @media(max-width: 991px) {
   .home-container01 {
-    display: none;
-  }
-  .home-mobile-menu {
     display: none;
   }
   .home-hero {
@@ -1286,7 +1268,7 @@ export default {
     font-size: 40px;
   }
   .home-image5 {
-    width: 357px;
+    width: 754px;
     height: auto;
   }
   .home-text28 {
@@ -1305,10 +1287,10 @@ export default {
   }
 }
 @media(max-width: 375px) {
-  .home-container01 {
-    display: none;
+  .home-container {
+    flex-wrap: wrap;
   }
-  .home-mobile-menu {
+  .home-container01 {
     display: none;
   }
   .home-left {
@@ -1344,8 +1326,12 @@ export default {
     width: 375px;
   }
   .home-image5 {
+    width: 363px;
     height: auto;
     align-self: center;
+  }
+  .home-footer {
+    width: 375px;
   }
 }
 </style>

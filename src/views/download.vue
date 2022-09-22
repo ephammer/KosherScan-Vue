@@ -731,11 +731,23 @@ export default {
   }
 }
 @media(max-width: 375px) {
+  .download-container {
+    flex-wrap: wrap;
+  }
   .download-container01 {
     display: none;
   }
   .download-container02 {
     width: 375px;
+    position: relative;
+  }
+  .download-image2 {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    position: absolute;
   }
 }
 </style>

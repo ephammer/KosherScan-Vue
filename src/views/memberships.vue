@@ -820,6 +820,18 @@ export default {
   }
   .memberships-container02 {
     width: 375px;
+    height: 390px;
+    position: relative;
+  }
+  .memberships-image2 {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 273px;
+    bottom: 0px;
+    height: 273px;
+    margin: auto;
+    position: absolute;
   }
   .memberships-container06 {
     margin-bottom: var(--dl-space-space-unit);

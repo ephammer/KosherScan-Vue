@@ -653,6 +653,9 @@ export default {
   }
 }
 @media(max-width: 375px) {
+  .about-container {
+    flex-wrap: wrap;
+  }
   .about-container01 {
     display: none;
   }
@@ -661,6 +664,24 @@ export default {
   }
   .about-container02 {
     width: 375px;
+    position: relative;
+  }
+  .about-image2 {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 299px;
+    position: absolute;
+    margin-top: var(--dl-space-space-doubleunit);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+  }
+  .about-footer {
+    width: 100%;
+  }
+  .about-container04 {
+    width: 100%;
   }
 }
 </style>
